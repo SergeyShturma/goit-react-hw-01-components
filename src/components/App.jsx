@@ -1,3 +1,5 @@
+
+import { Profile } from "./Profile/Profile";
 export const App = () => {
   return (
     <div
@@ -7,10 +9,11 @@ export const App = () => {
         justifyContent: 'center',
         alignItems: 'center',
         fontSize: 40,
-        color: '#010101'
+        color: '#010101',
+        backgroundColor: '#f3f3f3'
       }}
     >
-      React homework template
+      <Profile />
     </div>
   );
 };

@@ -1,0 +1,25 @@
+.stats {
+  display: flex;
+  list-style: none;
+  background-color: rgb(225, 221, 221);
+  flex-direction: row;
+  padding: 0;
+  margin: 0 auto;
+}
+
+li {
+  display: flex;
+  width: 100%;
+  border: 1px solid gray;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.label {
+  font-size: 24px;
+  color: rgb(145, 160, 174);
+}
+
+.quantity {
+  font-weight: 700;
+}
