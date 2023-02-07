@@ -1,6 +1,7 @@
-
+import friends from 'json/friends'
 import { Profile } from "components/Profile/Profile";
 import { Statistics } from "components/Statistics/Statistics"
+import { FriendList } from "components/FriendList/Friend"
 
 export const App = () => {
   return (
@@ -15,7 +16,7 @@ export const App = () => {
         color: '#010101',
         backgroundColor: '#f3f3f3'
       }}
-    ><Profile /><Statistics /></div>
+    ><Profile /><Statistics /><FriendList friends={friends} /></div>
     
     
   );

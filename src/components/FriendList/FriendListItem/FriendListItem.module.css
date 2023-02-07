@@ -1,0 +1,19 @@
+.name {
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+}
+
+.statusOn {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.statusOff {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: red;
+}
