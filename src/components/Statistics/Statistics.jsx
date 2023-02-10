@@ -5,7 +5,7 @@ import s from 'components/Statistics/Statistics.module.css'
 
 export const Statistics = () => {
     return <section className={s.statistics}>
-        <Title text="Upload stats" stats={data} />
+        <Title text="Upload stats" />
         <Stats stats={data} />
     </section >
 }
